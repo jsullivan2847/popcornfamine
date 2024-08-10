@@ -12,6 +12,7 @@ export default function Nav() {
             name: "Blog",
             link: "link",
             icon: null
+            
         },
         {
             name: "Portfolio",
