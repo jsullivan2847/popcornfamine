@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# PopcornFamine
 personal blog, website, and portfolio
