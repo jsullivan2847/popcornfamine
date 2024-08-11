@@ -4,32 +4,31 @@ import './Nav.css'
 export default function Nav() {
     const nav_elements = [
         {
-            name:"About",
-            link:"link",
+            name: "About",
+            link: "about",
             icon: null
         },
         {
-            name: "Blog",
-            link: "link",
+            name: "Technology",
+            link: "technology",
             icon: null
         },
         {
-            name: "Portfolio",
-            link: "link",
+            name: "Music",
+            link: "music",
             icon: null
+
         }
     ]
-  return (
-    <nav>
-        <ul>
-            {nav_elements.map((elem)=> {
-                return <li>
+    return (
+        <nav className='nav-ul'>
+            {nav_elements.map((elem) => {
+                return <button>
                     <a href={elem.link}>
                         {elem.name}
                     </a>
-                </li>
+                </button>
             })}
-        </ul>
-    </nav>
-  )
+        </nav>
+    )
 }
