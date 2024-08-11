@@ -1,0 +1,19 @@
+@media (max-width:768px) {
+    .body-container{
+        outline: black 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+}
+
+@media (min-width:769px) {
+    .body-container{
+        outline: black 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px;
+    }
+}
