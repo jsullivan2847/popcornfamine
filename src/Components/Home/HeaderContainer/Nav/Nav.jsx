@@ -22,9 +22,9 @@ export default function Nav() {
     ]
     return (
         <nav className='nav-ul'>
-            {nav_elements.map((elem) => {
-                return <button>
-                    <a href={elem.link}>
+            {nav_elements.map((elem,index) => {
+                return <button key={index}>
+                    <a href={elem.link} key={index}>
                         {elem.name}
                     </a>
                 </button>

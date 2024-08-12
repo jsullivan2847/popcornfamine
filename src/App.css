@@ -1,9 +1,19 @@
 /*global css*/
 
+:root {
+  --primary: #ffffff;
+  --secondary: #020f09;
+  --body-text: #000000;
+  color:var(--body-text);
+  background-color: #9eab5d
+}
+
 a{
   text-decoration: none;
   color: inherit;
 }
+
 li{
   list-style-type: none;
 }
+

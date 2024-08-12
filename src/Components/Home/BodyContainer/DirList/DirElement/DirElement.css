@@ -1,0 +1,10 @@
+.dir-element{
+    height: fit-content;
+    padding: 0 3px 0 3px;
+    margin-bottom: 5px;
+}
+
+.selected{
+    background-color: rgba(49, 49, 49, 0.2);
+    cursor: pointer;
+}

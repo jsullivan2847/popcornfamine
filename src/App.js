@@ -1,11 +1,12 @@
 import './App.css';
 import HeaderContainer from './Components/Home/HeaderContainer/HeaderContainer';
+import BodyContainer from './Components/Home/BodyContainer/BodyContainer';
 
 function App() {
   return (
     <div className="App">
       <HeaderContainer/>
-      <h1>Hello</h1>
+      <BodyContainer/>
     </div>
   );
 }

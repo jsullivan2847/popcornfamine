@@ -1,0 +1,9 @@
+.content-window{
+    outline: solid var(--secondary) 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    height: 800px;
+    width: 900px;
+}
