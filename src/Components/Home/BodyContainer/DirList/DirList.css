@@ -1,0 +1,10 @@
+.dir-list{
+    outline: solid var(--secondary) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px;
+    height: 400px;
+    width: 200px;
+    padding: 5px;
+}

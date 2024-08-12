@@ -1,6 +1,6 @@
 @media (max-width:768px) {
     .body-container{
-        outline: black 1px solid;
+        outline: solid var(--secondary) 1px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -10,7 +10,7 @@
 
 @media (min-width:769px) {
     .body-container{
-        outline: black 1px solid;
+        outline: solid var(--secondary) 1px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;

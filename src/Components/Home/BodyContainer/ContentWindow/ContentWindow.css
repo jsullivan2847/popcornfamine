@@ -1,5 +1,5 @@
 .content-window{
-    outline: black 1px solid;
+    outline: solid var(--secondary) 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
