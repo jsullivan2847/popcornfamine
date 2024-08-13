@@ -2,7 +2,7 @@ import "./DirElement.css"
 import { useState,useEffect } from 'react';
 
 
-export default function DirElement({ content, onSelect, isSelected }) {
+export default function DirElement({ file, onSelect, isSelected }) {
   let [style,setStyle] = useState("")
   useEffect(() => {
     setStyle(isSelected ? ' selected' : '');
@@ -23,7 +23,7 @@ const handleMouseOut = () => {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      - {content.date} - {content.title}
+      - {file.metadata.date} - {file.metadata.title}
     </div>
   )
 }
