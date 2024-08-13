@@ -1,9 +1,24 @@
 import React from 'react'
 import "./DirList.css"
 import DirElement from './DirElement/DirElement'
+import { metadata } from '../../../../Entries/entry_1'
 import { useState } from 'react'
 
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const allFiles = importAll(require.context('../../../../Entries/', false, /\.jsx$/));
+
+const allMetadata = allFiles.map(file => file.metadata);
+const allEntries = allFiles.map(file => file.default);
+
+console.log("all metadata: ",allMetadata)
+console.log("all entries: ",allEntries)
+
 export default function DirList() {
+
+  console.log("metadata: ",metadata)
 
   const [selectedIndex, setSelectedIndex] = useState(null)
 
@@ -11,7 +26,7 @@ export default function DirList() {
     setSelectedIndex(index)
   }
 
-  const posts = [{
+  const entries = [{
     categories: ["Text","Images","Video","Audio"],
     title: "First Post",
     date: "Aug/11/2024",
@@ -28,10 +43,10 @@ export default function DirList() {
 
   return (
     <div className='dir-list'>
-      {posts.map((post,index)=> {
+      {allFiles.map((file,index)=> {
         return <DirElement
         key={index}
-        content={post}
+        file={file}
         isSelected={selectedIndex === index}
         onSelect={() => handleSelect(index)}
         />
