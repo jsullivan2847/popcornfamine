@@ -12,10 +12,8 @@
   align-items: center;
   justify-content: center;
 }
+
 html{
-  overflow-x: hidden;
-}
-body{
   overflow-x: hidden;
 }
 
