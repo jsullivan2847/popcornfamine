@@ -10,7 +10,7 @@ export const metadata = {
 export default function entry_1() {
 
   return (
-    <div>
+    <div className='content-container'>
       <h1>First Post to My Blog....</h1>
       <p>"Hello and welcome I hope this can be new/old and beatiful way to use the internet"</p>
     </div>

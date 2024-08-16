@@ -5,7 +5,18 @@
   --secondary: #020f09;
   --body-text: #000000;
   color:var(--body-text);
-  background-color: #9eab5d
+  background-color: #9eab5d;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
 }
 
 a{
