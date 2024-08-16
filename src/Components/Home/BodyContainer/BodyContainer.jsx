@@ -2,7 +2,7 @@ import React from 'react'
 import "./BodyContainer.css"
 import ContentWindow from './ContentWindow/ContentWindow'
 import DirList from './DirList/DirList'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 function importAll(r) {
     return r.keys().map(r);
