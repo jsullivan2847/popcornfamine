@@ -1,6 +1,8 @@
-.header-container{
-    width: 100vw;
+.page{
+    width: 80vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
