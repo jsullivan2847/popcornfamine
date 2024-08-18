@@ -4,3 +4,13 @@
     justify-content: space-evenly;
     width: stretch;
 }
+
+.nav-elem{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nav-elem img{
+    padding: 0px 5px 0  0; 
+}

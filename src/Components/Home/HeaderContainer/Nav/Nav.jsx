@@ -6,7 +6,7 @@ export default function Nav() {
         {
             name: "About",
             link: "about",
-            icon: null
+            icon: "/icons_emojis/prof_pic.jpg"
         },
         {
             name: "Technology",
@@ -16,15 +16,15 @@ export default function Nav() {
         {
             name: "Music",
             link: "music",
-            icon: null
+            icon: '/icons_emojis/mandolin.png'
         }
     ];
 
     return (
         <nav className='nav-ul'>
             {nav_elements.map((elem) => (
-                <button key={elem.link} aria-label={elem.name}>
-                    <img src={elem.icon} alt="" width="20px"/>
+                <button className="nav-elem" key={elem.link} aria-label={elem.name}>
+                    <img src={elem.icon} alt="" width="15px"/>
                     <a href={elem.link}>
                         {elem.name}
                     </a>

@@ -1,0 +1,21 @@
+.about-main-content{
+    margin: 50px;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.about-main-conten p {
+    height: fit-content;
+    margin: 0;
+}
+.contact{
+    padding: 0 20px 0 20px;
+    width: fit-content;
+    background-color: wheat;
+}
+.contact-text{
+    font-family:Arcana-Display;
+}

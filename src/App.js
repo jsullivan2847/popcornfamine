@@ -1,12 +1,26 @@
 import './App.css';
-import HeaderContainer from './Components/Home/HeaderContainer/HeaderContainer';
-import BodyContainer from './Components/Home/BodyContainer/BodyContainer';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "About",
+    element: <About/>,
+  }
+]);
 
 function App() {
   return (
     <div className="App">
-      <HeaderContainer/>
-      <BodyContainer/>
+      <RouterProvider router={router}/>
     </div>
   );
 }

@@ -15,7 +15,6 @@ const handleMouseOut = () => {
   setStyle(isSelected ? ' selected' : '');
 }
 
-const dot = "·"
   return (
     <div
       className={"dir-element" + style}
