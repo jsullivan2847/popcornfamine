@@ -1,0 +1,13 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: solid 1px black;
+    overflow-wrap: break-word; /* Adjusts text wrapping */
+    width: 28%; /* Use percentage or calc() for relative sizes */
+    height: 50%;
+}
+h1{
+    margin: 0;
+    font-family: "Playfair Display";
+}

@@ -1,10 +1,12 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import Technology from './Components/Technology/Technology';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "About",
     element: <About/>,
+  },
+  {
+    path: "Technology",
+    element: <Technology/>,
   }
 ]);
 
