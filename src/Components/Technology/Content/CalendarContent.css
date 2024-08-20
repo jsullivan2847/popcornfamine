@@ -1,0 +1,23 @@
+.projects-container {
+    /* outline: solid var(--secondary) 1px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px;
+    max-width: 80vw;
+    height:70vh;
+}
+
+@media (max-width:769px) {
+    .projects-container {
+        
+        /* outline: solid var(--secondary) 1px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5px;
+        height: 80vh;
+        width: 95vw;
+    }
+}
