@@ -17,5 +17,15 @@
     background-color: wheat;
 }
 .contact-text{
-    font-family:Arcana-Display;
+    color: blue;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-text:hover{
+    cursor:pointer
+}
+
+.not-clicked{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
