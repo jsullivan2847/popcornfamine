@@ -13,16 +13,17 @@ const allProjects = importAll(require.context('/src/Projects', false, /\.jsx$/))
 
 export default function Technology() {
 
-    const allDates = [...new Set(allProjects.map((project) => project.metadata.date))];
+    // const allDates = [...new Set(allProjects.map((project) => project.metadata.date))];
 
-    const [selectedDate, setSelectedDate] = useState(allDates[0])
+    const [selectedProject, setSelectedProject] = useState(allProjects[allProjects.length - 1])
 
-    const handleSelect = (date) => {
-        console.log("date: ",date)
-        setSelectedDate(date)
+    const handleSelect = (project) => {
+        console.log("project: ",project)
+        setSelectedProject(project)
     }
 
-    const selectedProjects = allProjects.filter((project) => project.metadata.date === selectedDate)
+    // const selectedProjects = allProjects.filter((project) => project.metadata.date === selectedDate)
+    // const selectedProjects = allProjects
 
     // console.log("selected date: ",selectedDate)
     // console.log("all projects: ",allProjects)
@@ -30,13 +31,13 @@ export default function Technology() {
 
     return (
         <div className='page'>
-            <HeaderContainer />
+            <HeaderContainer/>
             <Calendar
-                dates={allDates}
-                selectedDate={selectedDate}
+                projects={allProjects}
+                selectedProject={selectedProject}
                 handleSelect={handleSelect}
             />
-            <CalendarContent projects={selectedProjects} selectedDate={selectedDate}/>
+            <CalendarContent project={selectedProject}/>
         </div>
     )
 }

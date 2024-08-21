@@ -1,15 +1,16 @@
 import React from 'react'
 import "./CalendarContent.css"
 
-export default function CalendarContent({ projects}) {
+export default function CalendarContent({project}) {
 
 
 
   return (
     <div className='projects-container'>
-        {projects.map((project,key)=>{
+      <project.default/>
+        {/* {projects.map((project,key)=>{
             return <project.default key={key}/>
-        })}
+        })} */}
     </div>
   )
 }
