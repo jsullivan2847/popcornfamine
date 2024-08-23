@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderContainer from '../Home/HeaderContainer/HeaderContainer'
-import Calendar from './Calendar/Calendar';
-import CalendarContent from './Content/CalendarContent';
+import Calendar from './ProjectDirectory/ProjectList';
+import CalendarContent from './ProjectContent/ProjectContent';
 import { useState } from 'react';
 import "../Page.css"
 

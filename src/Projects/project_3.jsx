@@ -2,7 +2,7 @@ import React from 'react'
 
 export const metadata = {
     categories: ["Text"],
-    title: "Second Post",
+    title: "VST Plug-in (WIP)",
     date: "Aug/12/2024"
   }
 

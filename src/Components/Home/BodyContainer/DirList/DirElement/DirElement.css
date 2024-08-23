@@ -2,6 +2,7 @@
     height: fit-content;
     padding: 0 3px 0 3px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .selected{
