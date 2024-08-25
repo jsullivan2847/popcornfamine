@@ -1,12 +1,12 @@
 import React from 'react'
 import HeaderContainer from '../Home/HeaderContainer/HeaderContainer'
 // import MusicList from './MusicDirectory/MusicList';
-import { releases } from '../../Releases/releases';
+import sortedReleases from '../../Releases/releases';
 import MusicContent from './MusicContent/MusicContent'
-import { useState } from 'react';
+// import { useState } from 'react';
 import "../Page.css"
 
-console.log("releases: ",releases);
+console.log("releases: ",sortedReleases);
 
 
 // function importAll(r) {
@@ -14,7 +14,7 @@ console.log("releases: ",releases);
 // }
 // const allReleases = importAll(require.context('/src/Releases', false, /\.jsx$/)).reverse();
 
-const allReleases = releases;
+const allReleases = sortedReleases;
 
 export default function Music() {
 

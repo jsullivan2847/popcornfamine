@@ -1,16 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faSpotify } from '@fortawesome/free-brands-svg-icons';
-import { faBandcamp } from '@fortawesome/free-brands-svg-icons';
-import { faItunes } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faSpotify, faBandcamp, faItunes } from '@fortawesome/free-brands-svg-icons';
 
-export const releases = [
+const releases = [
     {
         categories: ["Album"],
         title: "The Great Bug War",
         artist: "Half Day",
         album_art: "https://f4.bcbits.com/img/a0862376495_16.jpg",
-        release_date: new Date(2024, 3),
+        release_date: new Date(2024, 2),
         description: "Hardrive Dump some 2020 some 2024",
         credits: "Songwriting / Vocals / Production / All Instruments",
         links: {
@@ -29,6 +25,7 @@ export const releases = [
     {
         categories: ["Album"],
         title: "Gotta Get to Work",
+        release_date: new Date(2019, 2),
         artist: "Half Day",
         album_art:"https://f4.bcbits.com/img/a1054899475_16.jpg",
         credits: "Songwriting / Vocals / Production / All Instruments",
@@ -50,6 +47,7 @@ export const releases = [
         title: "Mixed Reviews",
         artist: "Oliver Houston",
         album_art: "https://f4.bcbits.com/img/a2618929286_16.jpg",
+        release_date: new Date(2018, 10),
         credits: "Songwriting / Lead Guitar",
         description: "",
         links: {
@@ -69,6 +67,7 @@ export const releases = [
         categories: ["Album"],
         title: "Secret World",
         artist: "Half Day",
+        release_date: new Date(2021, 10),
         album_art: "https://f4.bcbits.com/img/a1527446205_16.jpg",
         credits: "",
         description: "",
@@ -90,6 +89,7 @@ export const releases = [
         title: "Tilted Planet",
         artist: "Zero Point Energy",
         album_art: "https://f4.bcbits.com/img/a3770366235_16.jpg",
+        release_date: new Date(2024, 4),
         credits: "",
         description: "",
         links: {
@@ -105,4 +105,9 @@ export const releases = [
           "Apple Music": faItunes
         }
       }
-]
+];
+
+// Sort the releases by date
+const sortedReleases = releases.sort((b,a) => a.release_date - b.release_date);
+
+export default sortedReleases;
