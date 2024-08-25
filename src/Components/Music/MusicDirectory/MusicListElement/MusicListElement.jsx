@@ -1,8 +1,8 @@
-import "./ProjectListElement.css"
+import "./MusicListElement.css"
 import { useState,useEffect } from 'react';
 
 
-export default function CalendarElement({ project, onSelect, selectedProject }) {
+export default function MusicListElement({ project, onSelect, selectedProject }) {
 
 const isSelected = project === selectedProject
   let [style,setStyle] = useState("")

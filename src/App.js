@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Technology from './Components/Technology/Technology';
+import Music from './Components/Music/Music';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "Technology",
     element: <Technology/>,
+  },
+  {
+    path: "Music",
+    element: <Music/>,
   }
 ]);
 
