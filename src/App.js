@@ -3,6 +3,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Technology from './Components/Technology/Technology';
 import Music from './Components/Music/Music';
+import Background from './Components/Background/Background';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
+      <Background/>
       <RouterProvider router={router}/>
     </div>
   );
