@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    outline: solid 1px black;
+    justify-content: start;
     overflow-wrap: break-word; /* Adjusts text wrapping */
     height: 50%;
-    width: 20px;
+    width: 80%;
 }
 h1{
     margin: 0;
