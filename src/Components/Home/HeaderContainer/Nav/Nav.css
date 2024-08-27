@@ -6,11 +6,26 @@
 }
 
 .nav-elem{
+    padding: 3px 10px 3px 10px;
+    height: fit-content;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    border-radius: 1px;
+    border:dashed 1px var(--tertiary);
 }
 
+.nav-elem:hover{
+    background-color: var(--secondary);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size:calc(100% * 0.94);
+}
+
+
+.nav-elem > *{
+    margin: 0;
+}
 .nav-elem img{
     padding: 0px 5px 0  0; 
 }

@@ -1,11 +1,15 @@
 /*global css*/
 
 :root {
-  --primary: #ffffff;
-  --secondary: #020f09;
+  --primary: #FFF6E9;
+  --secondary: #BBE2EC;
+  --tertiary: #0D9276;
+  --special:#40A2E3;
   --body-text: #000000;
+  --alt-text: #0D9276;
+  --heading-text: #40A2E3;
   color:var(--body-text);
-  background-color: #9eab5d;
+  background-color: var(--primary);
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
