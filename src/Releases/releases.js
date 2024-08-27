@@ -7,7 +7,7 @@ const releases = [
         artist: "Half Day",
         album_art: "https://f4.bcbits.com/img/a0862376495_16.jpg",
         release_date: new Date(2024, 2),
-        description: "Hardrive Dump some 2020 some 2024",
+        description: "Hardrive Dump some 2020 some 2024. Mastered by Sam Hall",
         credits: "Songwriting / Vocals / Production / All Instruments",
         links: {
             "Youtube": "https://www.youtube.com/watch?v=qcYLWPhGn1I&list=OLAK5uy_laCMeDNNUgqWYMs4BDoQCazDyMrmY9Mo0",
@@ -29,6 +29,7 @@ const releases = [
         artist: "Half Day",
         album_art:"https://f4.bcbits.com/img/a1054899475_16.jpg",
         credits: "Songwriting / Vocals / Production / All Instruments",
+        description: "Recorded at home in Grand Rapids, MI",
         links: {
           "Youtube": "https://www.youtube.com/watch?v=S4rUaPPzacI&list=OLAK5uy_mO_mj_b5Sofo01MKWq2Hm6BlKPahD5-NQ",
           "Spotify": "https://open.spotify.com/album/2BhVqxK9HsaYPNnC3wiUpj?si=tZs3hihjQTuR8DgthPlZaQ",
@@ -49,7 +50,7 @@ const releases = [
         album_art: "https://f4.bcbits.com/img/a2618929286_16.jpg",
         release_date: new Date(2018, 10),
         credits: "Songwriting / Lead Guitar",
-        description: "",
+        description: "Recorded at Cold War Studios with Rick Johnson in Grand Rapids, MI",
         links: {
           "Youtube": "https://www.youtube.com/watch?v=Q_NGyWjsDMc",
           "Spotify": "https://open.spotify.com/album/1fXCRUHhyNYGXJzy2seBxI?si=to7DDC2QTE-kiG_d3AhMPA",
@@ -69,8 +70,8 @@ const releases = [
         artist: "Half Day",
         release_date: new Date(2021, 10),
         album_art: "https://f4.bcbits.com/img/a1527446205_16.jpg",
-        credits: "",
-        description: "",
+        credits: "Songwriting / Vocals / Production / All Instruments",
+        description: "Recorded in Grand Rapids, MI in 2019 / 2020. Some drums played by Tyler Moore and some engineered by Sam Hall. Mixed and overcompressed by me.",
         links: {
           "Youtube": "https://www.youtube.com/watch?v=fXkUIdUZO3k&list=OLAK5uy_lwiM51Z7JlbOZg6TlD-kCM_EPb4loOOP0",
           "Spotify": "https://open.spotify.com/album/5IVPSGcW2GcTDWxOwVCvXs?si=7XXgq6lMTGer39NWsg9jLQ",
@@ -90,8 +91,8 @@ const releases = [
         artist: "Zero Point Energy",
         album_art: "https://f4.bcbits.com/img/a3770366235_16.jpg",
         release_date: new Date(2024, 4),
-        credits: "",
-        description: "",
+        credits: "Songwriting / Bass Guitar",
+        description: "Some songwriting and bass guitar. Recorded at Studio G in Brooklyn, NY with Matt Labozza",
         links: {
           "Youtube": "https://www.youtube.com/watch?v=MdqnZTiyHBA&list=OLAK5uy_no5ukwmPjHQzPCq8y5FMBVrgux9KfT9GY",
           "Spotify": "https://open.spotify.com/album/6sASZKd9JrmI8bWzVtzqXY?si=DxnURvgbRaq5uNFVIDZe2A",
