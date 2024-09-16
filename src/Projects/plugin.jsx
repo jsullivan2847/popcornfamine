@@ -9,7 +9,7 @@ export const metadata = {
 export default function project_3() {
   return (
     <div className='projects-container'>
-        <h1>VST Plugin (WIP)</h1>
+        <h1>DSP Plugin (WIP)</h1>
         <p>Update coming soon...</p>
     </div>
   )
