@@ -24,4 +24,5 @@ h1{
 .github-readme-md{
     width: 100%;
     display: flex;
+    justify-content: center;
 }
