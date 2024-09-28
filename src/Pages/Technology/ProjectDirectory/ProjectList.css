@@ -1,5 +1,7 @@
 .project-list{
-    margin-top: 50px;
+    width: fit-content;
+    padding: 10px;
+    margin: 50px;
     min-height: 60px;
     overflow: scroll;
     font-family:monospace;

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./css/projects.css"
 
 export const metadata = {
     categories: ["Text"],
@@ -8,7 +9,7 @@ export const metadata = {
 
 export default function project_3() {
   return (
-    <div className='projects-container'>
+    <div>
         <h1>DSP Plugin (WIP)</h1>
         <p>Update coming soon...</p>
     </div>

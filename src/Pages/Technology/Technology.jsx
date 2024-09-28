@@ -1,10 +1,9 @@
 import React from 'react'
-import HeaderContainer from '../Home/HeaderContainer/HeaderContainer'
 import Calendar from './ProjectDirectory/ProjectList';
 import CalendarContent from './ProjectContent/ProjectContent';
+import HeaderContainer from '../../Components/HeaderContainer/HeaderContainer';
+import "./Technology.css"
 import { useState } from 'react';
-import "../Page.css"
-
 
 function importAll(r) {
     return r.keys().map(r);
@@ -18,7 +17,7 @@ export default function Technology() {
     const [selectedProject, setSelectedProject] = useState(allProjects[allProjects.length - 1])
 
     const handleSelect = (project) => {
-        console.log("project: ",project)
+        console.log("project: ", project)
         setSelectedProject(project)
     }
 
@@ -30,14 +29,17 @@ export default function Technology() {
     // console.log("selected projects: ",selectedProjects)
 
     return (
-        <div className='page'>
-            <HeaderContainer/>
-            <Calendar
-                projects={allProjects}
-                selectedProject={selectedProject}
-                handleSelect={handleSelect}
-            />
-            <CalendarContent project={selectedProject}/>
-        </div>
+        <>
+            <HeaderContainer />
+            <div className='technology'>
+                <Calendar
+                    projects={allProjects}
+                    selectedProject={selectedProject}
+                    handleSelect={handleSelect}
+                />
+                <CalendarContent project={selectedProject} />
+            </div>
+
+        </>
     )
 }

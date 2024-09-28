@@ -1,6 +1,6 @@
 import React from 'react'
 import { GitHubReadme } from "react-github-readme-md";
-import "./projects.css"
+import "./css/projects.css"
 
 export const metadata = {
   categories: ["Game"],

@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px;
+    /* margin: 50px; */
     max-width: 80vw;
     height:70vh;
 }

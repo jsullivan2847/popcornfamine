@@ -1,13 +1,13 @@
-.release-container {
+.release-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     overflow-wrap: break-word; /* Adjusts text wrapping */
-    margin: 10px;
+    margin: 9px;
     width: 300px;
 }
-.release-container > *{
+.release-card > *{
     margin: 0;
 }
 

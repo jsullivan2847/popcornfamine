@@ -6,6 +6,9 @@ export default function CalendarContent({project}) {
 
 
   return (
+    <div className='projects-container'>
       <project.default/>
+    </div>
+      
   )
 }

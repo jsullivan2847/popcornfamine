@@ -1,9 +1,10 @@
 import './App.css';
-import Home from './Components/Home/Home';
-import About from './Components/About/About';
-import Technology from './Components/Technology/Technology';
-import Music from './Components/Music/Music';
+import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Technology from './Pages/Technology/Technology';
+import Music from './Pages/Music/Music';
 import Background from './Components/Background/Background';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,7 +14,7 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element:<Home/>,
   },
   {
     path: "About",
@@ -33,9 +34,12 @@ function App() {
   return (
     <div className="App">
       <Background/>
-      <RouterProvider router={router}/>
+      <div className='page'>
+        <RouterProvider router={router}/>
+      </div>
     </div>
   );
 }
 
 export default App;
+ 

@@ -5,7 +5,7 @@ import "./releases.css"
 export default function Release({ metadata }) {
 
   return (
-    <div className='release-container'>
+    <div className='release-card'>
       <img alt='' className='release-art' src={metadata.album_art} />
       <h3 className='release-title'>{metadata.title}</h3>
       <h3 className='release-title'>{metadata.artist}</h3>

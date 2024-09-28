@@ -1,12 +1,22 @@
-.projects-container {
+/* .projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    overflow-wrap: break-word; /* Adjusts text wrapping */
-    height: 50%;
+    overflow-wrap: break-word;
+    height: 70%;
     width: 80%;
+} */
+
+.youtube-link{
+    width:100%;
+    height:80%;
 }
+
+.external-link{
+    color: blue;
+}
+
 h1{
     margin: 0;
     font-family: "Playfair Display";
@@ -25,4 +35,10 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
