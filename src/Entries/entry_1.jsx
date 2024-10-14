@@ -24,10 +24,10 @@ Dave Pohsell played drums on all the rest of the songs, but when we went into th
 <p>This is my favorite song on the release. I think whatever I make next will sound more like this than anything else. If you made it here thank you for reading and listening.
   
 </p>
-      <img src='https://f4.bcbits.com/img/a2208395273_16.jpg' alt='' />
+      <img width={"100%"} src='https://f4.bcbits.com/img/a2208395273_16.jpg' alt='' />
       <br/>
       <div>
-        <div>I can't find it on the map - someplace I won't know till I get there. Where's my
+        <div className='lyrics'>I can't find it on the map - someplace I won't know till I get there. Where's my
           buddy when I need him? My bad, I miss everyone I know.<br />
           <br />
           Yeah it's true. I do got you. Yeah it's true. <br />
