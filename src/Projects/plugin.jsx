@@ -3,7 +3,7 @@ import "./css/projects.css"
 
 export const metadata = {
     categories: ["Text"],
-    title: "VST Plug-in (WIP)",
+    title: "Audio Plug-in (WIP)",
     date: "Aug/12/2024"
   }
 

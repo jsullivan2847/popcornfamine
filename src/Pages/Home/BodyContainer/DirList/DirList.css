@@ -1,29 +1,18 @@
 .dir-list{
-    /* outline: solid var(--secondary) 1px; */
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    margin: 15px 10px 10px 10px;
-    height: fit-content;
-    max-height: 200px;
-    width: 300px;
-    padding: 5px;
-    overflow: scroll;
-    font-family:monospace;
-    background-color: azure;
-    box-shadow:rgb(109, 53, 114) 0 10px 10px 10px;
+    width: 50%;
+    max-height: 100px;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    border-radius: 1px;
+    border:dashed 1px var(--tertiary);
 }
-@media (max-width:769px) {
-    .dir-list{
-        /* background-color: red; */
-        /* outline: solid var(--secondary) 1px; */
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        margin: 10px 10px 40px 10px;
-        height: 10vh;
-        width: 80vw;
-        padding: 5px;
-    }
+.dir-list::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }

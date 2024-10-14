@@ -105,6 +105,27 @@ const releases = [
           "Bandcamp": faBandcamp,
           "Apple Music": faItunes
         }
+      },
+      {
+        categories: ["Single"],
+        title: "That's True",
+        artist: "Half Day",
+        album_art: "https://f4.bcbits.com/img/a2208395273_16.jpg",
+        release_date: new Date(2024, 10),
+        credits: "Songwriting / Instrumentation / Production / Mixing",
+        description: "First single from upcoming EP 'I Will Never Change My Style'",
+        links: {
+          "Youtube": "https://www.youtube.com/watch?v=rqYpiybCtZI",
+          "Spotify": "https://open.spotify.com/track/1bSU3AlxNFm7kBeDbvkfUF?si=c7561769867d4c79",
+          "Bandcamp": "https://half-day.bandcamp.com/track/thats-true",
+          "Apple Music": "https://music.apple.com/us/album/thats-true-single/1771394394"
+        },
+        icons: {
+          "Youtube": faYoutube,
+          "Spotify": faSpotify,
+          "Bandcamp": faBandcamp,
+          "Apple Music": faItunes
+        }
       }
 ];
 

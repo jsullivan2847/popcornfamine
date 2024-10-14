@@ -1,24 +1,9 @@
-@media (max-width:768px) {
-    .body-container{
-        /* outline: solid var(--secondary) 1px; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        width: 98vw;
-        margin-top: 20px;
-    }
-}
-
-@media (min-width:769px) {
-    .body-container{
-        /* outline: solid var(--secondary) 1px; */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px;
-        width: 70vw;
-        margin-top: 20px;
-    }
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 70vw;
+    margin-top: 20px;
 }
