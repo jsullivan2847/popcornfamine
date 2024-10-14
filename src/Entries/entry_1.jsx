@@ -18,7 +18,7 @@ Dave Pohsell played drums on all the rest of the songs, but when we went into th
 <p>As it always does - it feels like a miracle that this music is actually being released from my hard drive.
   It wouldn't have happened if not for the short-lived Half Day live band of Dave Pohsell, Brita Van Tol, Ryan Hagan, and Melissa Caren
   which somehow only managed to play 2 shows in the course of a year and a half - although we practiced constantly.
-  With "That's True" and the rest of the songs on the EP I hope to have captured the sounds we achieved in those performances.
+  With "That's True" and the rest of the songs on the EP I hope to have captured the sounds we achieved in that time.
   This is the most I've ever worked with others on a release for Half Day. I found that rewarding and hope to continue to do so....
 </p>
 <p>This is my favorite song on the release. I think whatever I make next will sound more like this than anything else. If you made it here thank you for reading and listening.
