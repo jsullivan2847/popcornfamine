@@ -1,8 +1,9 @@
 .nav-ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: stretch;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 .nav-elem{

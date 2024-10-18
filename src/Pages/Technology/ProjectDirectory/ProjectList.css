@@ -1,7 +1,7 @@
 .project-list{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 60vw;
     max-height: 300px;
     overflow-x: auto;
     justify-content: center;
@@ -13,6 +13,7 @@
     overflow-y: scroll;
     border-radius: 1px;
     border:dashed 1px var(--tertiary);
+    box-sizing: border-box;
 }
 
 .project-list::-webkit-scrollbar {
