@@ -8,7 +8,8 @@
 
 .nav-elem{
     padding: 3px 10px 3px 10px;
-    height: fit-content;
+    height: 27px;
+
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -29,4 +30,11 @@
 }
 .nav-elem img{
     padding: 0px 5px 0  0; 
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-ul{
+        width: 80vw;
+        font-size: 11px;
+    }
 }
