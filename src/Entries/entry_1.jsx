@@ -14,7 +14,7 @@ export default function entry_1() {
       <h1>That's True</h1>
       <iframe className='bandcamp-embed' src="https://bandcamp.com/EmbeddedPlayer/track=2923954006/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://half-day.bandcamp.com/track/thats-true">That&#39;s True by Half Day</a></iframe>
       <p>That’s True is the first single from “I Will Never Change My Style”. 
-Dave Pohsell played drums on all the rest of the songs, but when we went into the studio to track drums we just forgot to record this song - which kind of worked out because I was attached to the demo drums that made it to the final version.</p>
+Dave played drums on all the rest of the songs, but when we went into the studio to track drums we just forgot to record this song - which kind of worked out because I was attached to the demo drums that made it to the final version.</p>
 <p>As it always does - it feels like a miracle that this music is actually being released from my hard drive.
   It wouldn't have happened if not for the short-lived Half Day live band of Dave Pohsell, Brita Van Tol, Ryan Hagan, and Melissa Caren
   which somehow only managed to play 2 shows in the course of a year and a half - although we practiced constantly.
