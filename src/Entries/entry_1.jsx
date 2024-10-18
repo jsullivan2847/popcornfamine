@@ -3,7 +3,7 @@ import "./entries.css"
 
 export const metadata = {
   categories: ["Text", "Images", "Video", "Audio"],
-  title: "First Post",
+  title: "That's True",
   date: "Aug/11/2024"
 }
 
