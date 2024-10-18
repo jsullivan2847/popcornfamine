@@ -19,7 +19,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        height: fit-content;
+    .dir-list{
+        width: 80vw;
+        font-size: 11px;
     }
   }
