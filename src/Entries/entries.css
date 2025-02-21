@@ -20,3 +20,8 @@ h1{
     font-style:italic;
     font-weight: bold;
 }
+
+.embeds{
+    display: flex;
+    flex-direction: row;
+}

@@ -7,7 +7,7 @@ import { useState } from 'react'
 function importAll(r) {
     return r.keys().map(r);
 }
-const allFiles = importAll(require.context('../../../Entries/', false, /\.jsx$/)).reverse();
+const allFiles = importAll(require.context('../../../Entries/', false, /\.jsx$/));
 
 export default function BodyContainer() {
 

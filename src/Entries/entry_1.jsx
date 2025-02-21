@@ -12,16 +12,13 @@ export default function entry_1() {
   return (
     <div className='content-container'>
       <h1>That's True</h1>
-      <iframe className='bandcamp-embed' src="https://bandcamp.com/EmbeddedPlayer/track=2923954006/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://half-day.bandcamp.com/track/thats-true">That&#39;s True by Half Day</a></iframe>
-      <p>That’s True is the first single from “I Will Never Change My Style”. 
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2039173841&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-438754434" title="Half Day" target="_blank" style="color: #cccccc; text-decoration: none;">Half Day</a> · <a href="https://soundcloud.com/user-438754434/07a74db4-7fac-4083-8a72-bdd882c649ea" title="I Lost It" target="_blank" style="color: #cccccc; text-decoration: none;">I Lost It</a></div>      <p>That’s True is the first single from “I Will Never Change My Style”. 
 Dave played drums on all the rest of the songs, but when we went into the studio to track drums we just forgot to record this song - which kind of worked out because I was attached to the demo drums that made it to the final version.</p>
-<p>As it always does - it feels like a miracle that this music is actually being released from my hard drive.
-  It wouldn't have happened if not for the short-lived Half Day live band of Dave Pohsell, Brita Van Tol, Ryan Hagan, and Melissa Caren
+<p>There was a band that played these songs - Dave Pohsell, Brita Van Tol, Ryan Hagan, and Melissa Caren
   which somehow only managed to play 2 shows in the course of a year and a half - although we practiced constantly.
   With "That's True" and the rest of the songs on the EP I hope to have captured the sounds we achieved in that time.
-  This is the most I've ever worked with others on a release for Half Day. I found that rewarding and hope to continue to do so....
 </p>
-<p>This is my favorite song on the release. I think whatever I make next will sound more like this than anything else. If you made it here thank you for reading and listening.
+<p>If you made it here thank you for reading and listening.
   
 </p>
       <img width={"100%"} src='https://f4.bcbits.com/img/a2208395273_16.jpg' alt='' />
