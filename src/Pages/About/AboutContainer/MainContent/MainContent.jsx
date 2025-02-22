@@ -1,6 +1,8 @@
 import React from 'react'
 import "./MainContent.css"
 import { useState } from 'react'
+import { faYoutube, faBandcamp, faSoundcloud, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function MainContent() {
 
@@ -20,7 +22,24 @@ export default function MainContent() {
             jsullivan2847@gmail.com
         </p>
         </div>
-
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faYoutube}/>
+            <a href="https://www.youtube.com/@popcornfamine">Youtube</a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faBandcamp}/>
+            <a href='https://half-day.bandcamp.com/'>Bandcamp</a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSoundcloud}/>
+            <a href='https://soundcloud.com/user-438754434'>Soundcloud</a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faInstagram}/>
+            <a href='https://www.instagram.com/popcornfamine/'>Instagram</a>
+          </li>
+        </ul>
     </div>
   )
 }
