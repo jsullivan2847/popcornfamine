@@ -6,3 +6,15 @@
     color:black;
     margin: 25px;
 }
+p{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    height: fit-content;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+p:hover{
+    cursor: pointer;
+}
