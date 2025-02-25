@@ -3,8 +3,6 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Technology from './Pages/Technology/Technology';
 import Music from './Pages/Music/Music';
-import Background from './Components/Background/Background';
-
 import {
   createBrowserRouter,
   RouterProvider,
@@ -32,11 +30,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
-      <Background/>
-      <div className='page'>
-        <RouterProvider router={router}/>
-      </div>
+    <div className="page">
+      <RouterProvider router={router}>
+      </RouterProvider>
     </div>
   );
 }

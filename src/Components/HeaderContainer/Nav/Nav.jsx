@@ -6,17 +6,17 @@ export default function Nav() {
     const nav_elements = [
         {
             name: "About",
-            link: "/about",
+            slug: "/about",
             icon: "/icons_emojis/prof_pic.jpg"
         },
         {
             name: "Technology",
-            link: "/technology",
+            slug: "/technology",
             icon: "/icons_emojis/matrix.gif"
         },
         {
             name: "Music",
-            link: "/music",
+            slug: "/music",
             icon: '/icons_emojis/mandolin.png'
         }
     ];
@@ -24,7 +24,7 @@ export default function Nav() {
     return (
         <nav className='nav-ul'>
             {nav_elements.map((elem,index) => (
-                <Link className="nav-elem" to={elem.link} key={index} aria-label={elem.name}>
+                <Link className="nav-elem" to={elem.slug} key={index} aria-label={elem.name}>
                     <img src={elem.icon} alt="" width="15px"/>
                     <p>{elem.name}</p>
                 </Link>

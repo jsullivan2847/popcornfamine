@@ -31,7 +31,7 @@ li{
 }
 
 .page{
-  width: 100vw;
+  /* width: 100vw; */
   height:100vh;
   text-wrap: wrap;
   overflow-wrap: anywhere;
