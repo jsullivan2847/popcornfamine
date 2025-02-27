@@ -7,7 +7,7 @@ export default function Nav() {
         {
             name: "About",
             slug: "/about",
-            icon: "/icons_emojis/prof_pic.jpg"
+            icon: "prof_pic.jpg"
         },
         {
             name: "Technology",
