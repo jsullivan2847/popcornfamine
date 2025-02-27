@@ -7,9 +7,9 @@ export const metadata = {
   title: "Hide and Seek"
 }
 
-export default function project_1() {
+export default function hide_and_seek() {
 
   return (
-    <GitHubReadme username="jsullivan2847" repo="Hide-and-Seek" />
+      <GitHubReadme username="jsullivan2847" repo="Hide-and-Seek" />    
   )
 }

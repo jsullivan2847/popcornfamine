@@ -9,7 +9,6 @@
 .nav-elem{
     padding: 3px 10px 3px 10px;
     height: 27px;
-
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -34,7 +33,24 @@
 
 @media only screen and (max-width: 768px) {
     .nav-ul{
-        width: 80vw;
-        font-size: 11px;
+        width: 90vw;
+        flex-direction: column;
+        
+    }
+    .nav-elem{
+        padding: 3px 10px 3px 10px;
+        height: 27px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        border-radius: 1px;
+        border-top:none;
+        border-bottom:dashed 1px var(--tertiary);
+        border-right:none;
+        border-left:none;
+        margin-bottom: 5px;
+    }
+    .nav-elem img{
+        padding: 0px 2px 0  0; 
     }
 }

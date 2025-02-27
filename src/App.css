@@ -31,8 +31,6 @@ li{
 }
 
 .page{
-  /* width: 100vw; */
-  height:100vh;
   text-wrap: wrap;
   overflow-wrap: anywhere;
   display: flex;
@@ -46,4 +44,6 @@ li{
 .page::-webkit-scrollbar {
   display: none; /* Hide scrollbar */
 }
+
+
 

@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
 }
+
 h1{
     margin: 0;
     font-family: "Playfair Display";
@@ -14,18 +15,11 @@ h1{
     border: 0;
     margin: 10px;
 }
-.youtube-embed{
-    width: 80%;
-    height: 400px;
-    border: 0;
-    margin: 10px;
-}
 
 .soundcloud-embed{
-    width: 80%;
     height: 400px;
     border: 0;
-    margin: 10px;
+    width: stretch;
 }
 
 .lyrics{
@@ -35,7 +29,23 @@ h1{
 
 .embeds{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;    
 }
+.embed{
+    width: stretch;
+    height:inherit;
+}
+
+@media only screen and (max-width: 768px) {
+    .embeds{
+        flex-direction: column;
+        align-items: center;
+    }
+    .embed{
+        height:400px;
+    }
+}
+

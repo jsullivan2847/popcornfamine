@@ -1,17 +1,19 @@
 import React from 'react'
 
 import sortedReleases from '../../Releases/releases';
-import MusicContent from './MusicContent/MusicContent'
 import HeaderContainer from '../../Components/HeaderContainer/HeaderContainer';
-
-const allReleases = sortedReleases;
+import ContentWindow from 'Components/ContentWindow/ContentWindow';
 
 export default function Music() {
+    console.log(sortedReleases)
 
     return (
         <>
-            <HeaderContainer/>
-            {allReleases? <MusicContent allReleases={allReleases}/> : <p>no releases</p>}
+            <HeaderContainer />
+            <ContentWindow
+            selectedFile={sortedReleases}
+            mode="music"
+            />
         </>
     )
 }

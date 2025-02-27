@@ -8,22 +8,23 @@ import Directory from "Components/Directory/Directory";
 const allFiles = importAll(require.context("/src/Entries/", false, /\.jsx$/));
 
 export default function Home() {
-  const [selectedIndex, setSelectedIndex] = useState(allFiles.length - 1);
+  const [selectedFile, setSelectedFile] = useState(allFiles[allFiles.length - 1]);
 
   const handleSelect = (index) => {
-    setSelectedIndex(index);
+    console.log("file: ",allFiles[index])
+    setSelectedFile(allFiles[index]);
   };
   return (
     <>
       <HeaderContainer>
       <Directory
         allFiles={allFiles}
-        selectedIndex={selectedIndex}
+        selectedFile={selectedFile}
         handleSelect={handleSelect}
       />
       </HeaderContainer>
       
-      <ContentWindow allFiles={allFiles} selectedIndex={selectedIndex} />
+      <ContentWindow selectedFile={selectedFile} />
     </>
   );
 }

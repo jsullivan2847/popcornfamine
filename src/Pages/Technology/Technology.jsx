@@ -1,45 +1,32 @@
 import React from 'react'
-import Calendar from './ProjectDirectory/ProjectList';
-import CalendarContent from './ProjectContent/ProjectContent';
 import HeaderContainer from '../../Components/HeaderContainer/HeaderContainer';
-import "./Technology.css"
 import { useState } from 'react';
+import { importAll } from 'Utility/Functions';
+import Directory from 'Components/Directory/Directory';
+import ContentWindow from 'Components/ContentWindow/ContentWindow';
 
-function importAll(r) {
-    return r.keys().map(r);
-}
-const allProjects = importAll(require.context('/src/Projects', false, /\.jsx$/)).reverse();
+const allFiles = importAll(require.context('/src/Projects', false, /\.jsx$/)).reverse();
 
 export default function Technology() {
 
-    // const allDates = [...new Set(allProjects.map((project) => project.metadata.date))];
+    const [selectedFile, setSelectedFile] = useState(allFiles[allFiles.length - 1]);
 
-    const [selectedProject, setSelectedProject] = useState(allProjects[allProjects.length - 1])
-
-    const handleSelect = (project) => {
-        console.log("project: ", project)
-        setSelectedProject(project)
-    }
-
-    // const selectedProjects = allProjects.filter((project) => project.metadata.date === selectedDate)
-    // const selectedProjects = allProjects
-
-    // console.log("selected date: ",selectedDate)
-    // console.log("all projects: ",allProjects)
-    // console.log("selected projects: ",selectedProjects)
+    const handleSelect = (index) => {
+        console.log("file: ", allFiles[index])
+        setSelectedFile(allFiles[index]);
+    };
 
     return (
         <>
-            <HeaderContainer />
-            <div className='technology'>
-                <Calendar
-                    projects={allProjects}
-                    selectedProject={selectedProject}
+            <HeaderContainer>
+                <Directory
+                    allFiles={allFiles}
+                    selectedIndex={selectedFile}
                     handleSelect={handleSelect}
                 />
-                <CalendarContent project={selectedProject} />
-            </div>
+            </HeaderContainer>
 
+            <ContentWindow selectedFile={selectedFile}/>
         </>
     )
 }

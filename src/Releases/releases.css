@@ -4,7 +4,6 @@
     align-items: center;
     flex-wrap: wrap;
     overflow-wrap: break-word; /* Adjusts text wrapping */
-    margin: 9px;
     width: 300px;
 }
 .release-card > *{

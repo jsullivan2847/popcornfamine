@@ -1,17 +1,27 @@
 .content-window {
-    /* outline: solid var(--secondary) 1px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 5px;
-    height: 80vh;
-    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
 }
 
-.content-container{
+.content-grid{
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: fit-content;
+    flex-wrap: wrap;
+    width: 60vw;
+    justify-content: space-between;
+    align-items: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+    .content-window{
+        width: 100vw;
+    }
+    .content-grid{
+        justify-content: center;
+    }
+
 }
