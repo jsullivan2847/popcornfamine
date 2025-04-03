@@ -24,7 +24,7 @@ export default function ContentWindow({ selectedFile, mode }) {
   else{
     return (
       <div className='content-window'>
-        <selectedFile.default/>
+        { selectedFile ? <selectedFile.default/> : <p>Loading...</p> }
       </div>
     )
   }
