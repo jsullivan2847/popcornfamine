@@ -3,6 +3,7 @@ import "./Directory.css";
 import DirElement from "./DirElement/DirElement";
 
 export default function Directory({allFiles, selectedFile, handleSelect}) {
+  console.timeLog("all files: ",allFiles);
   return (
     <div className="dir-list">
       {allFiles.map((file, index) => {
