@@ -11,6 +11,7 @@ import Directory from "Components/Directory/Directory";
 export default function Home() {
 
   const allFiles = importAll(require.context("/src/Entries/", false, /\.jsx$/)).reverse();
+  console.log("all files: ", allFiles);
 
   const handleSelect = (index) => {
     console.log("file: ", allFiles[index])
