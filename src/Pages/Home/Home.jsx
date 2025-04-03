@@ -10,7 +10,11 @@ import Directory from "Components/Directory/Directory";
 
 export default function Home() {
 
-  const allFiles = importAll(require.context("/src/Entries/", false, /\.jsx$/)).reverse();
+  // function importAll(r) {
+  //   return r.keys().map(r);
+  // }
+
+  const allFiles = [...new Set(importAll(require.context("/src/Entries/", false, /\.jsx$/)))].reverse();
   console.log("all files: ", allFiles);
 
   const handleSelect = (index) => {
