@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react';
 
 
 export default function DirElement({ file, onSelect, isSelected }) {
+  console.log("file: ",file)
   let [style,setStyle] = useState("")
   useEffect(() => {
     setStyle(isSelected ? ' selected' : '');
